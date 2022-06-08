@@ -1,0 +1,55 @@
+html,body,#app{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+/* 重置面包屑 */
+.el-breadcrumb{
+	margin-bottom: 15px;
+	font-size: 12px;
+}
+/* 重置卡片 */
+.el-card{
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
+/* 重置表格 */
+.el-table{
+	margin-top: 15px;
+	font-size: 12px;
+}
+/* 重置分页 */
+.el-pagination{
+	margin-top: 15px;
+}
+/* 全局过渡样式 */
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+
+/* 全局滚动条重置 */
+/* 滚动条的宽度 */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+/* 滚动条的滑块 */
+::-webkit-scrollbar-thumb {
+  background-color: rgb(133, 125, 125);
+  border-radius: 5px;
+}
+
+/* 侧边栏滚动条 */
+.el-aside::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+/* 滚动条的滑块 */
+.el-aside::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}

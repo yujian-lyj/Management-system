@@ -1,0 +1,258 @@
+{
+    "list": [{
+            "date": "2021-01-02",
+            "name": "张三",
+            "age": 18,
+            "gender": "男",
+            "phone": 18831808000,
+            "birthday": "1999-2-10",
+            "email": "xxx@163.com",
+            "idCard": "130928199909199999",
+            "tiptopDegree": "本科",
+            "school": "河北农业大学",
+            "wedlock": "未婚",
+            "nation": "汉族",
+            "Political": "共青团员",
+            "address": "河北省保定市莲池区"
+        }, {
+            "date": "2021-02-03",
+            "name": "李四",
+            "age": 19,
+            "gender": "男",
+            "phone": 18831808080,
+            "birthday": "1999-2-10",
+            "email": "xxx@163.com",
+            "idCard": "130928199909199999",
+            "tiptopDegree": "本科",
+            "school": "河北农业大学",
+            "wedlock": "未婚",
+            "nation": "汉族",
+            "Political": "共青团员",
+            "address": "河北省保定市莲池区"
+        },
+        {
+            "date": "2021-03-04",
+            "name": "王五",
+            "age": 20,
+            "gender": "女",
+            "phone": 18831808080,
+            "birthday": "1999-2-10",
+            "email": "xxx@163.com",
+            "idCard": "130928199909199999",
+            "tiptopDegree": "本科",
+            "school": "河北农业大学",
+            "wedlock": "未婚",
+            "nation": "汉族",
+            "Political": "共青团员",
+            "address": "河北省保定市莲池区"
+        },
+        {
+            "date": "2021-04-05",
+            "name": "赵六",
+            "age": 21,
+            "gender": "女",
+            "phone": 18831808080,
+            "birthday": "1999-2-10",
+            "email": "xxx@163.com",
+            "idCard": "130928199909199999",
+            "tiptopDegree": "本科",
+            "school": "河北农业大学",
+            "wedlock": "未婚",
+            "nation": "汉族",
+            "Political": "共青团员",
+            "address": "河北省保定市莲池区"
+        }, {
+            "date": "2021-05-06",
+            "name": "王二",
+            "age": 18,
+            "gender": "男",
+            "phone": 18831808080,
+            "birthday": "1999-2-10",
+            "email": "xxx@163.com",
+            "idCard": "130928199909199999",
+            "tiptopDegree": "本科",
+            "school": "河北农业大学",
+            "wedlock": "未婚",
+            "nation": "汉族",
+            "Political": "共青团员",
+            "address": "河北省保定市莲池区"
+        }
+    ],
+    "list2": [{
+            "date": "2021-05-06",
+            "position": "管理"
+        },
+        {
+            "date": "2021-06-06",
+            "position": "职员"
+        }
+    ],
+    "list3": [{
+            "date": "2021-05-06",
+            "name": "教授",
+            "position": "正高级",
+            "value": false
+        },
+
+        {
+            "date": "2021-06-08",
+            "name": "副教授",
+            "position": "副高级",
+            "value": true
+        },
+        {
+            "date": "2021-06-06",
+            "name": "讲师",
+            "position": "初级",
+            "value": true
+        }
+    ],
+    "list4": [{
+            "id": 1,
+            "label": "校长",
+            "children": [{
+                    "id": 3,
+                    "label": "院长"
+                }, {
+                    "id": 4,
+                    "label": "纪委书记",
+                    "children": [{
+                        "id": 9,
+                        "label": "人事处"
+                    }, {
+                        "id": 10,
+                        "label": "团委",
+                        "children": [{
+                            "id": 21,
+                            "label": "学生会"
+                        }, {
+                            "id": 23,
+                            "label": "社团"
+                        }]
+                    }]
+                },
+                {
+                    "id": 5,
+                    "label": "副院长",
+                    "children": [{
+                        "id": 17,
+                        "label": "教务处"
+                    }, {
+                        "id": 18,
+                        "label": "科研处"
+                    }, {
+                        "id": 19,
+                        "label": "招生办"
+                    }, {
+                        "id": 20,
+                        "label": "系部"
+                    }]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "label": "党支部",
+            "children": [{
+                    "id": 6,
+                    "label": "党委书记"
+                }, {
+                    "id": 7,
+                    "label": "党委副书记1",
+                    "children": [{
+                        "id": 11,
+                        "label": "培训处"
+                    }, {
+                        "id": 12,
+                        "label": "图书馆"
+                    }, {
+                        "id": 13,
+                        "label": "实训中心"
+                    }]
+                },
+                {
+                    "id": 8,
+                    "label": "党委副书记2",
+                    "children": [{
+                        "id": 14,
+                        "label": "财务处"
+                    }, {
+                        "id": 15,
+                        "label": "总务处",
+                        "children": [{
+                            "id": 22,
+                            "label": "保卫处"
+                        }]
+                    }, {
+                        "id": 16,
+                        "label": "办公室政务处"
+                    }]
+                }
+            ]
+        }
+    ],
+    "list5": [{
+            "name": "行政部门",
+            "basicSalary": "8000",
+            "traffic": "400",
+            "lunch": "500",
+            "bonus": "600",
+            "persionPer": "0.06",
+            "persionBase": "1000",
+            "medicalPer": "0.06",
+            "medicalBase": "1000",
+            "accumulationFundPer": "0.06",
+            "accumulationFundBase": "2200"
+        },
+        {
+            "name": "研发部门",
+            "basicSalary": "9000",
+            "traffic": "500",
+            "lunch": "500",
+            "bonus": "500",
+            "persionPer": "0.06",
+            "persionBase": "1200",
+            "medicalPer": "0.06",
+            "medicalBase": "1200",
+            "accumulationFundPer": "0.06",
+            "accumulationFundBase": "2500"
+        }, {
+            "name": "人事部门",
+            "basicSalary": "6000",
+            "traffic": "400",
+            "lunch": "500",
+            "bonus": "600",
+            "persionPer": "0.06",
+            "persionBase": "1000",
+            "medicalPer": "0.06",
+            "medicalBase": "1000",
+            "accumulationFundPer": "0.06",
+            "accumulationFundBase": "2000"
+        }, {
+            "name": "运营部门",
+            "basicSalary": "7000",
+            "traffic": "400",
+            "lunch": "500",
+            "bonus": "600",
+            "persionPer": "0.06",
+            "persionBase": "1000",
+            "medicalPer": "0.06",
+            "medicalBase": "1000",
+            "accumulationFundPer": "0.06",
+            "accumulationFundBase": "2200"
+        }, {
+            "name": "财务部门",
+            "basicSalary": "6000",
+            "traffic": "400",
+            "lunch": "500",
+            "bonus": "500",
+            "persionPer": "0.06",
+            "persionBase": "1500",
+            "medicalPer": "0.06",
+            "medicalBase": "1000",
+            "accumulationFundPer": "0.06",
+            "accumulationFundBase": "1800"
+        }
+    ]
+
+}
